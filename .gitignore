@@ -1,2 +1,5 @@
 .history
 compare_bytecode.py
+temp_artifacts
+
+.env
