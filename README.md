@@ -14,7 +14,19 @@ CompareBytecode uses the Web3.py library. It is currently primarily designed to 
 
 ## Installation
 
-Coming
+Setup a virtual environment first
+
+```zsh
+pip install virtualenv
+virtualenv .venv
+source .venv/bin/activate
+```
+
+Now install dependencies
+
+```zsh
+pip install -r requirements.txt
+```
 
 ## Usage
 
