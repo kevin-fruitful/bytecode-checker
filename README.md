@@ -27,7 +27,3 @@ jupyter nbconvert --to script compare_bytecode.ipynb
 ```zsh
 python compare_bytecode.py
 ```
-
-## TODO
-
-Be able to specify which branches and commits of a repo that the bytecode is read from.
