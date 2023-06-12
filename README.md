@@ -1,8 +1,8 @@
-# CompareBytecode
+DO NOT USE YET
 
-CompareBytecode is a Python package designed to aid Ethereum blockchain developers and auditors. Its primary feature is to compare the bytecodes of contracts, both locally and on-chain, to ensure consistency and aid in contract upgradeability verification.
+# RepoChainSync
 
-CompareBytecode uses the Web3.py library. It is currently primarily designed to work with Diamond Standard contracts (EIP-2535) but can be used with any Ethereum contract.
+coming
 
 ## Features
 
