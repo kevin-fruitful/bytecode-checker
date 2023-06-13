@@ -1,0 +1,28 @@
+name: "Repository Bytecode Reconciler"
+description: ""
+author: "Kevin Park"
+inputs:
+  build_previous_commits:
+    description: "Previous commits to build."
+    required: false
+  dir_path_to_broadcasts:
+    description: "Relative path from the repository root to the broadcasts directory."
+    required: false
+  dir_path_to_artifacts:
+    description: "Relative path from the repository root to the artifacts directory."
+    required: false
+  additional_contracts:
+    description: "Additional contracts."
+    required: false
+  forge_path:
+    description: "Path to Forge."
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.build_previous_commits }}
+    - ${{ inputs.dir_path_to_broadcasts }}
+    - ${{ inputs.dir_path_to_artifacts }}
+    - ${{ inputs.additional_contracts }}
+    - ${{ inputs.forge_path }}
